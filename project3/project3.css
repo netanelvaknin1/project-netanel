@@ -1,0 +1,192 @@
+
+
+
+  
+  @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@500&family=Satisfy&family=Varela+Round&display=swap');
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    direction: rtl;
+}
+
+body{
+    background: linear-gradient(#281EFF , #2DFF8C);
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+}
+
+.main-sec{
+    margin: 10% auto;
+    background-color: transparent;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+}
+
+.main-sec h1{
+    color: #FFFFFF;
+    text-shadow: 0px 0px 36px #00000087;
+    opacity: 1;
+    font: normal normal normal 160px/231px Satisfy;
+    font-size: 7rem;
+    
+}
+
+.main-sec h2{
+    
+    text-align: center;
+    font: normal normal normal 32px/38px Varela Round;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin:10px 0 20px 0;
+}
+
+.main-sec p{
+    text-align: center;
+    font: normal normal normal 16px/20px Varela Round;
+    letter-spacing: 0px;
+    color: #F9F9F9;
+    opacity: 1;
+    
+    
+}
+
+.form-box{
+    width: 1000px;
+    height: 60px;
+    background-color: transparent;
+    top: 430px;
+    right: 15%;  
+    display: block;
+    margin: 20px 0;
+    
+}
+
+.form-area{
+    display: flex;
+    position: relative;
+    gap: 20px;
+    width: 100%;
+    height: 100px;
+    align-items:center ;
+    color: #fff;
+    right: 5%;
+}
+
+.form-area label{
+    font-size: 15px;
+}
+
+.form-area #name , #email {
+    display: flex;
+    flex-direction: row-reverse;
+    color:#FFFFFF;
+    top: 30px;
+    width: 350px;
+    height: 30px;
+    background: #F6F6F624 0% 0% no-repeat padding-box;
+    border: 2px solid #FFFFFF;
+
+
+}
+
+
+.form-area .btn{
+    border: 2px solid #fff;
+    display: flex;
+    position: absolute;
+    top:45px;
+    left: 60px;
+    height: 30px;
+    width: 200px;
+    justify-content: center;
+    background-color: #fff
+    
+}
+
+@media screen and (max-width:900px){
+
+    body{
+        height: 100vh;
+        width: 100%;
+        align-items: center;
+    }
+
+    .main-sec h1{
+        font-size: 100px;
+        line-height: 100px;
+        
+    }
+
+    .main-sec h2{
+        text-align: center;
+        font-size: 30px;
+        padding: 0 10px;
+    }
+
+    .main-sec p{
+        text-align: center;
+        font-size: 15px;
+        font-weight: 200;
+        margin-top: 30px;
+        padding: 0 10px;
+    }
+
+    .form-box{
+        top:300px;
+    }
+
+    form{
+        
+        width: 40%;
+        height:300px;
+        top: 10px;
+    }
+    
+    .form-box .form-area  {
+        
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 200px;
+        
+
+    }
+
+
+    .form-area{
+        position: relative;
+        top: 10px;
+        right: 0px;
+        align-items: start;
+    }
+
+    .form-area .input{
+        width: 80px;
+        height: 10px;
+        margin: 10px;
+
+    }
+
+   .form-area{
+    font-size: 10px;
+    text-align: right;
+}
+
+.form-area #name , #email{
+    align-items: right;
+    
+}
+
+.form-area .btn{
+    width: 87%;
+    top: 135px;
+    right: 10px;
+}
+
+}
