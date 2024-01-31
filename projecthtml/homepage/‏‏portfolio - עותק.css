@@ -16,7 +16,7 @@ body {
     left: 0;
     width: 100%;
     padding: 0px 0% 0px 100px;
-    background-color: rgba(0, 0, 0, 0.589);
+    background-color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,7 +31,7 @@ body {
 } 
 
 nav{
-    background-color: rgba(0, 0, 0, 0);
+    background-color: red;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -97,6 +97,36 @@ nav li:first-child{
     display: none;
 }
 
+
+
+
+
+/* .navbar a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color: green;
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+} 
+*/
 .home{ 
     height: 70vh;
     background: url(../homepage/joker2.png) no-repeat;
