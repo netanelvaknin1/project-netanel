@@ -75,7 +75,7 @@ nav li:first-child{
     height: 100vh;
     width: 250px;
     z-index: 999;
-    background-color: #20223a00;
+    background-color: rgba(0, 128, 0, 0.447);
     backdrop-filter: blur(10px);
     box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
     display: none;
@@ -661,16 +661,16 @@ display: flex;
 @media screen and (max-width:800px){
     
     .header{
-        padding: 0px 0px 0px 30px;
+        padding: 10px 0px 10px 30px;
     }
 
     .header .logo{
-        font-size: 15px;
+        font-size: 20px;
         padding-left: 0px;
     }
 
     nav a{
-        color: black;
+        color: #000;
         font-weight: 700;
     }
 
@@ -690,6 +690,7 @@ display: flex;
 
     .menu-button{
         display: block;
+        color: #20223a;
     }
 
    .home-content .btn-box{
@@ -776,9 +777,7 @@ display: flex;
 
 
 .container2 .card{
-    
     align-items: center;
-    justify-content: space-around;
     flex-wrap: wrap;
     height: 50px;
     
@@ -789,20 +788,17 @@ display: flex;
     text-align: center;
     background-color: green;
     height: 35vh;
-    width: 77% ;
-    justify-content: start;   
+    width: 80% ;
+    
 }
 
 .container2 .cards .card h3{
     font-size: 30px;
-    justify-content: start;
-    
 }
 
 .container2 .cards .card p{
     font-size: 16px;
-    margin-bottom: 0;
-    
+    margin-bottom: 0vh;
 }
 
 
